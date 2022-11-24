@@ -1,14 +1,14 @@
 <template>
-
+  <PageHeading />
 </template>
 
 <script>
-
+import PageHeading from './components/PageHeading.vue';
 
 export default {
   name: 'App',
   components: {
-
+    PageHeading
   }
 }
 </script>
